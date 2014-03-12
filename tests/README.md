@@ -16,7 +16,7 @@ php curlqueue.php
 
 Run run_tests.php.  This fires off some requests to be picked up by curlqueue.
 ```
-php run_test.php
+php tests/run_test.php
 ```
 
 Watch output of curlqueue.php and what is being written to /var/curlforsure/requests.q
