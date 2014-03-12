@@ -19,6 +19,7 @@ php curlqueue.php
 Make requests like this:
 ```
 require "curlforsure.php";
+
 $curl = new CurlForSure();
 
 $curl->setopt(CURLOPT_URL, "http://localhost:8000");
