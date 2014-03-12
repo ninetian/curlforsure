@@ -28,6 +28,5 @@ $curl->setopt(CURLOPT_POSTFIELDS, http_build_query(array("foo" => "bar")));
 
 $curl->exec();
 
-// Now the request is sent to the queue to be retried according to settings in config.php
 ```
-
+Now the request is sent to the queue to be retried according to settings in config.php
